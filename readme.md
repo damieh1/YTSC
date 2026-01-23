@@ -12,7 +12,7 @@ This repository contains the full codebase for our full paper submission on YouT
   Biaffine dependency parsing (SuPar)
 
 - `absa/`
-  ABSA model training + inference (BERT, RoBERTa, DeBERTa, Qwen-QLoRA)
+  ABSA model training + inference + fine-Tuning configurations (BERT, RoBERTa, DeBERTa, Qwen-QLoRA)
 
 - `CV/`
   Scene-type taxonomy + computer-vision implementation
