@@ -12,6 +12,19 @@ All scripts expect a `.raw` file with triplet entries in the format (see /data/`
 Labels may be variations of "positive", "neutral", "negative". They are
 normalized internally.
 
+
+## Fine-Tuning Configurations
+
+Below are the fine-tuning settings and evaluation results for all models used in the paper:
+
+| Model                         | LR       | Ep. | Batch | F1     |
+|------------------------------|----------|-----|-------|--------|
+| RoBERTa-base                 | 3e−5     | 6   | 16    | 76.32  |
+| DeBERTa-v3-base              | 3e−5     | 6   | 16    | **81.89** |
+| DeBERTa-v3-large             | 1e−5     | 4   | 8     | 78.43  |
+| DeBERTa-v3-large-absa-v1.1   | 5e−6     | 5   | 8     | 79.65  |
+| Qwen2.5-7B (QLoRA)           | 2e−5     | 3   | 4     | 72.50  |
+
 ---
 
 ## Scripts
